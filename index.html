@@ -10,45 +10,64 @@
 
 <body>
     <header>
-        <h1>Bienvenidos a tecnologias santa marta</h1>
-        <h2>Tu Mejor opcion</h2>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="Computadores">Computadores</a></li>
-                    <li><a href="Procesadores">Procesadores</a></li>
-                    <li><a href="Teclado y Mouse">Teclado y Mouse</a></li>
-                    <li><a href="Tarjetas Graficas">Tarjetas Graficas</a></li>
-                    <li><a href="MotherBoards">MotherBoards</a></li>
-                    <li><a href="Memorias Ram">Memorias Ram</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="barra-navegacion">
+            <ul class="menu-navegacion">
+                <li><a href="Computadores">Computadores</a></li>
+                <li><a href="perifericos">perifericos</a></li>
+                <li class="desplegable">
+                    <a href="componentes">componentes</a>
+                    <ul class="sub-menu">
+                        <li><a href="Procesadores">Procesadores</a></li>
+                        <li><a href="Tarjetas Graficas">Tarjetas Graficas</a></li>
+                        <li><a href="MotherBoards">MotherBoards</a></li>
+                        <li><a href="Memorias Ram">Memorias Ram</a></li>
+                    </ul>
+                </li>
+                <li><a href="contacto">contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <div>
-            <img src="gamer 1.jpg" alt="auto">
-            <p>tenemos rocesadoresdes de ultima generacion a los mejores precios en santa marta </p>
+        <section class="principal">
+            <h1>Bienvenidos a tecnologias santa marta</h1>
+            <h2>Tu Mejor opcion</h2>
 
-            <img src="gamer 2.jpg" alt="auto">
-            <p>Teclados con los mejores RGB y comodidad para la familia gamer</p>
-        </div>
+            <div class="contenedor-imagen">
+                <img src="gamer 1.jpg" alt="auto" class="imagen-principal">
+                <p>tenemos rocesadoresdes de ultima generacion a los mejores precios en santa marta </p>
+            </div>
 
-        <div>
-            <img src="gamer 3.jpg" alt="auto">
-            <p>llegamos a colombia con lo nuevo en ryzen y descuentos en diciembre</p>
+            <div class="contenedor-imagen">
+                <img src="gamer 3.jpg" alt="auto" class="imagen-principal">
+                <p>llegamos a colombia con lo nuevo en ryzen y descuentos en diciembre</p>
 
-            <img src="gamer 4.jpg" alt="auto">
-            <p>lo nuevo en graficas como RTX a llegado a santa marta la mejor experiencia gamer</p>
-        </div>
 
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <p>Contacto 3017193228 Ubicacion calle 41 N. 17-109 Siguenos en Facebook : Kenny Alexander</p>
+    <footer class="pie-pagina">
+        <div class="contenido-pie">
+            <div class="seccion-pie">
+                <h3>Contacto</h3>
+                <p>telefono 3017193228</p>
+                <p>email:kenny_14_16@hotmail.com</p>
+                <p>direccion :calle 37 # 15-44</p>
+            </div>
+            <div class="seccion-pie">
+                <h3>Horacios</h3>
+                <p>Lunes a viernes 7:00 - 18:00</p>
+                <p>Sabados: 7:00 - 15:00</p>
+                <p>Domingos: 7:00 - 12:00</p>
+            </div>
+            <div class="seccion-pie">
+                <h3>siguenos</h3>
+                <p>Facebook/kennyAlexander</p>
+                <p>instagran/sasuke06</p>
+                <p>twitter@kennyAlexander</p>
+            </div>
+        </div>
     </footer>
-
 </body>
-
 </html>
